@@ -200,8 +200,8 @@ tk.Label(root, text="Input Teks:", bg="gray").grid(row=3, column=0, sticky='w', 
 input_text = tk.Text(root, height=5, width=50)
 input_text.grid(row=3, column=1, sticky='w', padx=10, pady=5)
 
-tk.Button(root, text="Pilih File", command=load_file).grid(row=4, column=0, sticky='w', padx=10, pady=5)
-tk.Button(root, text="Proses", command=process_text).grid(row=4, column=1, sticky='w', padx=10, pady=5)
+tk.Button(root, text="Pilih File", command=load_file, bg="blue", fg="white", borderwidth=3, relief="ridge").grid(row=4, column=0, sticky='w', padx=10, pady=5)
+tk.Button(root, text="Proses", command=process_text, bg="blue", fg="white", borderwidth=3, relief="ridge").grid(row=4, column=1, sticky='w', padx=10, pady=5)
 
 tk.Label(root, text="Hasil:", bg="gray").grid(row=5, column=0, sticky='w', padx=10, pady=5)
 output_text = tk.Text(root, height=5, width=50)
