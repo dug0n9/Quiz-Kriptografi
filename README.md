@@ -12,7 +12,7 @@
    `git clone URL_REPOSITORI` > 
    `cd ke proyek repositori` > 
    `install python3-tk` > 
-   `jalankan di terminal python namafile.py`
+   jalankan di terminal `python namafile.py`
   
 
 
